@@ -3,7 +3,7 @@
         <img src="https://i.imgur.com/TQz2qbu.jpg" alt="Deezepy">
     </a>
     <br>
-    <b>Elegant Python wrapper for Deezer, entirely in Python</b>
+    <b>Elegant Python wrapper for Deezer API</b>
     <br>
     <a href="">
         Documentation
@@ -35,7 +35,7 @@ import deezepy
 ```pip install deezepy```
 
 ### Requirements
-- Python 3.6 or higherù
+- Python 3.6 or higher
 
 ### License
 Deezepy is licensed under GNU GPLv3
