@@ -22,8 +22,7 @@
 
 ## Deezepy
 ``` python
-import deezepy
-
+>>> import deezepy
 >>> client = deezepy.Client()
 >>> client.get_track("760429392").title
 'Come Together'
