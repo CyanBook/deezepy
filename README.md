@@ -24,7 +24,7 @@
 ``` python
 >>> import deezepy
 >>> client = deezepy.Client()
->>> client.get_track("760429392").title
+>>> client.get_track(760429392).title
 'Come Together'
 ```
 **Deezepy** is an elegant, intuitive and easy-to-use Python wrapper for Deezer API.
