@@ -1,0 +1,5 @@
+=====
+Genre
+=====
+
+.. autoclass:: deezepy.Genre()

@@ -1,0 +1,5 @@
+======
+Artist
+======
+
+.. autoclass:: deezepy.Artist()

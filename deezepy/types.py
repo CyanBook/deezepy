@@ -4,6 +4,9 @@ client = deezepy.Client()
 
 
 class Artist:
+    """
+    An artist
+    """
     def __init__(self, json):
         if not json:
             json = {}
@@ -30,6 +33,9 @@ class Artist:
 
 
 class Album:
+    """
+    An album
+    """
     def __init__(self, json):
         if not json:
             json = {}
@@ -83,6 +89,9 @@ class Album:
 
 
 class Genre:
+    """
+    A genre
+    """
     def __init__(self, json):
         if not json:
             json = {}
@@ -100,6 +109,9 @@ class Genre:
 
 
 class Track:
+    """
+    A track
+    """
     def __init__(self, json):
         if not json:
             json = {}

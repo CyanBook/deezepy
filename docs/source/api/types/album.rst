@@ -1,0 +1,5 @@
+=====
+Album
+=====
+
+.. autoclass:: deezepy.Album()

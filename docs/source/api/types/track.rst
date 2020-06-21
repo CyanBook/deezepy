@@ -1,0 +1,5 @@
+=====
+Track
+=====
+
+.. autoclass:: deezepy.Track()

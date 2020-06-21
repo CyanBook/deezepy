@@ -4,6 +4,8 @@ from .types import (
     Album, Genre
 )
 
+__version__ = '0.1'
+
 __all__ = [
     'Client',
     'Track',
