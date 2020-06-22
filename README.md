@@ -5,15 +5,15 @@
     <br>
     <b>Elegant Python wrapper for Deezer API</b>
     <br>
-    <a href="">
+    <a href="https://deezepy.readthedocs.io">
         Documentation
     </a>
     •
-    <a href="">
+    <a href="https://github.com/CyanBook/deezepy/releases">
         Releases
     </a>
     •
-    <a href="">
+    <a href="https://t.me/CyanBook">
         Support
     </a>
 </p>
