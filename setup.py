@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="deezepy",
-    version="0.2",
+    version="0.2.1",
     author="CyanBook",
     author_email="lorenzo.delmonte05@gmail.com",
     description="Deezer wrapper written in Python",
