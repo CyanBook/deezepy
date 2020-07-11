@@ -43,4 +43,6 @@ Welcome to Deezepy
     </a>
     </p>
 
-**Deezepy** is an elegant, intuitive and easy-to-use Python wrapper for Deezer API.
+| **Deezepy** is an elegant, intuitive and easy-to-use Python wrapper for Deezer API.
+|
+| Last update on |today|
