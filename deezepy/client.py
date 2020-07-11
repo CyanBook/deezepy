@@ -210,3 +210,6 @@ class Client:
                 raise DataNotFound
             elif error_code == 901:
                 raise IndividualAccountNotAllowed
+
+        else:
+            return r
