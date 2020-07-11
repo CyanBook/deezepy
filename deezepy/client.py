@@ -1,4 +1,17 @@
 import deezepy
+from deezepy.errors import (
+    QuotaExceeded,
+    ItemsLimitExceeded,
+    Permission,
+    TokenInvalid,
+    Parameter,
+    ParameterMissing,
+    QueryInvalid,
+    ServiceBusy,
+    DataNotFound,
+    IndividualAccountNotAllowed
+)
+
 import requests
 from typing import Union
 
@@ -173,4 +186,27 @@ class Client:
             params=params
         )
 
-        return r.json()
+        r = r.json()
+        if r.get("error"):
+            error_code = r.get("error").get("code")
+
+            if error_code == 4:
+                raise QuotaExceeded
+            elif error_code == 100:
+                raise ItemsLimitExceeded
+            elif error_code == 200:
+                raise Permission
+            elif error_code == 300:
+                raise TokenInvalid
+            elif error_code == 500:
+                raise Parameter
+            elif error_code == 501:
+                raise ParameterMissing
+            elif error_code == 600:
+                raise QueryInvalid
+            elif error_code == 700:
+                raise ServiceBusy
+            elif error_code == 800:
+                raise DataNotFound
+            elif error_code == 901:
+                raise IndividualAccountNotAllowed
